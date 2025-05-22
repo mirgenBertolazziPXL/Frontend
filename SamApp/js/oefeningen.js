@@ -2,54 +2,54 @@ const challenges = [
     {
         title: "Balsport",
         images: [
-            { src: "/SamApp/assets/images/illustrations/voetal.jpg",id: "Voetbal", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/basketballe.jpg",id: "Basketbal", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/tennis.jpg",id: "Tennis", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/vollebal.jpg",id: "Volleybal", alt: "Challenge 4", link: "/SamApp/html/oefeningenDetail.html" }
+            { src: "../assets/images/illustrations/voetal.jpg",id: "Voetbal", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/basketballe.jpg",id: "Basketbal", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/tennis.jpg",id: "Tennis", alt: "Challenge 3", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/vollebal.jpg",id: "Volleybal", alt: "Challenge 4", link: "../html/oefeningenDetail.html" }
         ]
     },
     {
         title: "Turnen",
         images: [
-            { src: "/SamApp/assets/images/illustrations/gymnastiek.jpg",id: "Gymnastiek", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/trampolinen.jpg",id: "Trampoline", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/calesthenics.jpg",id: "Calesthenics", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/turnen.png",id: "Turnen", alt: "Challenge 4", link: "/SamApp/html/oefeningenDetail.html" }
+            { src: "../assets/images/illustrations/gymnastiek.jpg",id: "Gymnastiek", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/trampolinen.jpg",id: "Trampoline", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/calesthenics.jpg",id: "Calesthenics", alt: "Challenge 3", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/turnen.png",id: "Turnen", alt: "Challenge 4", link: "../html/oefeningenDetail.html" }
         ]
     },
     {
         title: "Contact sporten",
         images: [
-            { src: "/SamApp/assets/images/illustrations/karate.jpg",id: "Karate", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/judo.jpg",id: "Judo", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/krav-maga.jpg",id: "Krav-maga", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" }
+            { src: "../assets/images/illustrations/karate.jpg",id: "Karate", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/judo.jpg",id: "Judo", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/krav-maga.jpg",id: "Krav-maga", alt: "Challenge 3", link: "../html/oefeningenDetail.html" }
         ]
     },
     {
         title: "Watersporten",
         images: [
-            { src: "/SamApp/assets/images/illustrations/schoolslag.jpeg",id: "Schoolslag", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/crawl.jpg",id: "Crawl", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/surfen.jpg",id: "Surfen", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/kayakken.jpg",id: "Kayakken", alt: "Challenge 4", link: "/SamApp/html/oefeningenDetail.html" }
+            { src: "../assets/images/illustrations/schoolslag.jpeg",id: "Schoolslag", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/crawl.jpg",id: "Crawl", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/surfen.jpg",id: "Surfen", alt: "Challenge 3", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/kayakken.jpg",id: "Kayakken", alt: "Challenge 4", link: "../html/oefeningenDetail.html" }
         ]
     },
     {
         title: "Racketsporten",
         images: [
-            { src: "/SamApp/assets/images/illustrations/badminton.jpg",id: "Badminton", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/tennis2.jpg",id: "Tennis", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/squash.jpeg",id: "Squash", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/badminton.jpg",id: "Badminton", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/tennis2.jpg",id: "Tennis", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/squash.jpeg",id: "Squash", alt: "Challenge 3", link: "../html/oefeningenDetail.html" },
         ]
     },
     {
         title: "Buitensporten",
         images: [
-            { src: "/SamApp/assets/images/illustrations/lopen.jpg",id: "Lopen", alt: "Challenge 1", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/skaten.jpg",id: "Skaten", alt: "Challenge 2", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/paardrijden.jpg",id: "Paardrijden", alt: "Challenge 3", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/boogschieten.jpg",id: "Boogschieten", alt: "Challenge 4", link: "/SamApp/html/oefeningenDetail.html" },
-            { src: "/SamApp/assets/images/illustrations/honkbal.jpg",id: "Honkbal", alt: "Challenge 5", link: "/SamApp/html/oefeningenDetail.html" }
+            { src: "../assets/images/illustrations/lopen.jpg",id: "Lopen", alt: "Challenge 1", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/skaten.jpg",id: "Skaten", alt: "Challenge 2", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/paardrijden.jpg",id: "Paardrijden", alt: "Challenge 3", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/boogschieten.jpg",id: "Boogschieten", alt: "Challenge 4", link: "../html/oefeningenDetail.html" },
+            { src: "../assets/images/illustrations/honkbal.jpg",id: "Honkbal", alt: "Challenge 5", link: "../html/oefeningenDetail.html" }
         ]
     }
 ];

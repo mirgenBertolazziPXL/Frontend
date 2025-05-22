@@ -41,14 +41,14 @@ function prevSlide() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const sponsors = [
-        "/SamApp/assets/images/logo/sponsor1.png",
-        "/SamApp/assets/images/logo/sponsor2.png",
-        "/SamApp/assets/images/logo/sponsor3.png",
-        "/SamApp/assets/images/logo/sponsor4.png",
-        "/SamApp/assets/images/logo/sponsor5.png",
-        "/SamApp/assets/images/logo/sponsor6.png",
-        "/SamApp/assets/images/logo/sponsor7.png",
-        "/SamApp/assets/images/logo/sponsor8.png"
+        "../assets/images/logo/sponsor1.png",
+        "../assets/images/logo/sponsor2.png",
+        "../assets/images/logo/sponsor3.png",
+        "../assets/images/logo/sponsor4.png",
+        "../assets/images/logo/sponsor5.png",
+        "../assets/images/logo/sponsor6.png",
+        "../assets/images/logo/sponsor7.png",
+        "../assets/images/logo/sponsor8.png"
     ];
 
     function createSponsorElement(src) {

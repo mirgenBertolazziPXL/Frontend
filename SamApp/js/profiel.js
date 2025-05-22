@@ -92,7 +92,7 @@ async function voegtoe() {
 
                     for (const detail of details) {
                         const img = document.createElement('img');
-                        img.src = detail.image || `/SamApp/assets/images/${item.ProductType}.png`;
+                        img.src = detail.image || `../assets/images/${item.ProductType}.png`;
                         img.alt = detail.name || 'Product';
                         img.className = 'order-img';
 

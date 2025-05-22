@@ -52,7 +52,7 @@ async function voegtoe() {
 
         const img = document.createElement("img");
         const ytThumb = getYouTubeThumbnail(exercise.Video);
-        img.src = ytThumb ?? exercise.Image ?? "/SamApp/assets/images/illustrations/default.png";
+        img.src = ytThumb ?? exercise.Image ?? "../assets/images/illustrations/default.png";
         img.alt = exercise.Name ?? "Oefening";
         img.style.cursor = 'pointer';
         img.addEventListener('click', () => {
