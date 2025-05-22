@@ -92,7 +92,7 @@ async function voegtoe() {
 
                     for (const detail of details) {
                         const img = document.createElement('img');
-                        img.src = detail.image || `../assets/images/${item.ProductType}.png`;
+                        img.src = detail.image || `/SamApp/assets/images/${item.ProductType}.png`;
                         img.alt = detail.name || 'Product';
                         img.className = 'order-img';
 
@@ -142,7 +142,7 @@ function uitloggen() {
     localStorage.removeItem("email");
     localStorage.removeItem("token");
     localStorage.removeItem("cart")
-    window.location.href = "../html/index.html";
+    window.location.href = "/Frontend/index.html";
 }
 
 // document.addEventListener('DOMContentLoaded', () => {

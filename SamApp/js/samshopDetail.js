@@ -29,7 +29,7 @@ function showErrorMessage(message) {
     detailContainer.innerHTML = `
         <div class="error-message">
             <p>${message}</p>
-            <button class="back-button" onclick="window.location.href='index.html'">Terug naar Home</button>
+            <button class="back-button" onclick="window.location.href='/Frontend/index.html'">Terug naar Home</button>
         </div>
     `;
 }
@@ -54,7 +54,7 @@ function renderProductDetail(item) {
             </div>
             
             <div class="action-buttons">
-                <button class="back-button" onclick="window.location.href='../html/samshop.html'">Terug naar Shop</button>
+                <button class="back-button" onclick="window.location.href='/SamApp/html/samshop.html'">Terug naar Shop</button>
                 <button class="add-to-cart-button">
                     <span>Toevoegen aan Winkelwagen</span>
                     <span class="add-to-cart-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

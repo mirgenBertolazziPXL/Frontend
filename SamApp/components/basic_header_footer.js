@@ -14,8 +14,8 @@ function loadHTML(selector, filePath) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadHTML("header", "../components/header.html");
-    loadHTML("footer", "../components/footer.html");
+    loadHTML("header", "/SamApp/components/header.html");
+    loadHTML("footer", "/SamApp/components/footer.html");
 });
 
 function toggleMobileMenu() {
