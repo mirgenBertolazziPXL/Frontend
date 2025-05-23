@@ -82,7 +82,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             alert("Inloggen geslaagd!");
             localStorage.setItem("token", response.token);
             localStorage.setItem("email",email);
-            window.location.href = "homepage.html";
+            window.location.href = "/SamApp/html/homepage.html";
         } else {
             alert("Ongeldige inloggegevens. Probeer opnieuw.");
         }
