@@ -1,4 +1,4 @@
-const BASE_URL = 'https://backend-3any.onrender.com/api';
+const BASE_URL = 'https://localhost:7132/api';
 
 function getUsers() {
     return fetch(BASE_URL + "/User").then(response => response.json());
